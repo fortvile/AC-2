@@ -9,52 +9,7 @@ public class Instrucoes{
     public static boolean isFim(String entrada){
         return(entrada.length() == 4 && entrada.charAt(0) == 'f' && entrada.charAt(1) == 'i' && entrada.charAt(2) == 'm' && entrada.charAt(3) == '.');
     }
-
-    public static String nAeB(String X, String Y){
-        String result = "";
-
-        if(X == "10"){
-            X = "A";
-        }
-        else if(X == "11"){
-            X = "B";
-        }
-        else if(X == "12"){
-            X = "C";
-        }
-        else if(X == "13"){
-            X = "D";
-        }
-        else if(X == "14"){
-            X = "E";
-        }
-        else if(X == "15"){
-            X = "F";
-        }
-
-        if(Y == "10"){
-            Y = "A";
-        }
-        else if(Y == "11"){
-            Y = "B";
-        }
-        else if(Y == "12"){
-            Y = "C";
-        }
-        else if(Y == "13"){
-            Y = "D";
-        }
-        else if(Y == "14"){
-            Y = "E";
-        }
-        else if(Y == "15"){
-            Y = "F";
-        }
-
-        result = X + "4" + Y;
-        return result;
-
-    }
+    
 
     public static void main(String[] args){
         Scanner scan = new Scanner(System.in);
